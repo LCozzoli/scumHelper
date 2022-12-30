@@ -1,0 +1,6 @@
+cython
+opencv-python
+pyautogui
+Pillow
+keyboard
+mouse

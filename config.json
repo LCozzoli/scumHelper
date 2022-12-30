@@ -1,0 +1,41 @@
+{
+  "buttons": 20,
+  "action": 30,
+  "vincinity": {
+    "x": 480,
+    "y": 95,
+    "width": 960,
+    "height": 250
+  },
+  "inventory": {
+    "x": 0,
+    "y": 0,
+    "width": 380,
+    "height": 1080
+  },
+  "depot": {
+    "x": 1400,
+    "y": 0,
+    "width": 550,
+    "height": 1080
+  },
+  "center": {
+    "x": 480,
+    "y": 95,
+    "width": 960,
+    "height": 900
+  },
+  "keybinds": {
+    "disable": "ctrl+0",
+    "sticks": "ctrl+1",
+    "planks": "ctrl+2",
+    "unbox": "ctrl+3",
+    "lockpicks": "ctrl+4",
+    "autoclick": "ctrl+5",
+    "autoloot": "ctrl+6",
+    "buyBulk": "f1",
+    "withdrawPads": "f2",
+    "moveItems": "r",
+    "useButton": "f"
+  }
+}
