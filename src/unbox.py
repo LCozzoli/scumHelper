@@ -12,6 +12,7 @@ def lootStack(name):
     if stacked:
         move(configs['vincinity']['x']+stacked.left+50, configs['vincinity']['y']+stacked.top+5, absolute=True, duration=0.1)
         double_click()
+        print("Unboxing > Looting %s stack" % name)
         sleep(2)
         return True
     return False
@@ -27,8 +28,9 @@ def stackUp(name):
 
 def unbox(name):
     sc = screenContainer('inventory')
-    if exists(sc, 'inventory', name, 'box', 7, .7, 2, False):
-        print("Unboxing ⮞ %s" % name)
+    if exists(sc, 'inventory', name, 'box', 7, .7, False):
+        print("Unboxing > Getting %s.." % name)
+        sleep(2)
         return True
     return False
 

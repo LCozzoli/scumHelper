@@ -8,12 +8,14 @@ def planks():
     sc = screenContainer('vincinity')
     for name in range(2):
         if exists(sc, 'vincinity', 'wood', name + 2, 4):
-            sleep(5)
+            print("Planks > Log found, chopping..")
+            sleep(7)
             return
 
 def sticks():
     sc = screenContainer('vincinity')
     for name in range(2):
         if exists(sc, 'vincinity', 'wood', name, 4):
-            sleep(5)
+            print("Sticks > Long stick found, chopping..")
+            sleep(7)
             return

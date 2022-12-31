@@ -9,6 +9,7 @@ from lib.comon import screenContainer, configs, sortLeft
 def autoloot(skipDrag=False):
     while not pixelMatchesColor(650, 1, (255, 255, 255)) or not pixelMatchesColor(1425, 60, (255, 255, 255)):
         sleep(.1)
+    print("Autoloot > container found, checking for loot..")
     vincinity = screenContainer('vincinity')
     car = locate("./images/utils/car.jpg", vincinity, confidence=0.7, grayscale=True)
     found = []
