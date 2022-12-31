@@ -4,6 +4,10 @@ This python code/scripts allows players to have better experience in SCUM by aut
 
 **Despite the fact that it don't read the game memory at all, I'm still waiting for the SCUM devs reply. I don't take any responsibility so use at your own risks.**
 
+## Preview
+
+https://youtu.be/B7R0QVpn6Bg
+
 ## Keybinds
 
 - **[CTRL+0]** Disable
