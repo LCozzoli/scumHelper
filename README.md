@@ -58,6 +58,7 @@ https://opencv.org/releases/
 ```
 
 Or execute the build.bat directly.
+You might need to install https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
 #### Running the script
 
