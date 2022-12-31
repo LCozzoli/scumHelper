@@ -4,11 +4,16 @@
 from pyautogui import locate, locateAll, pixelMatchesColor
 from time import sleep
 from mouse import drag, move, press, release, double_click
-from lib.comon import screenContainer, configs, sortLeft
+from lib.comon import screenContainer, resolution, anchors, sortLeft
 
 def autoloot(skipDrag=False):
+    abordCount = 0
     while not pixelMatchesColor(650, 1, (255, 255, 255)) or not pixelMatchesColor(1425, 60, (255, 255, 255)):
         sleep(.1)
+        abordCount = abordCount + 1
+        if abordCount > 40:
+            print("Autoloot > Aborded, no container found")
+            return
     print("Autoloot > container found, checking for loot..")
     vincinity = screenContainer('vincinity')
     car = locate("./images/utils/car.jpg", vincinity, confidence=0.7, grayscale=True)
@@ -22,8 +27,8 @@ def autoloot(skipDrag=False):
         found.sort(key=sortLeft, reverse=True)
         for item in found:
             if not car or skipDrag:
-                move(item.left + configs['center']['x'] + 20, item.top + configs['center']['y'] + 20, absolute=True, duration=0.2)
+                move(item.left + anchors['center']['x'] + 20, item.top + anchors['center']['y'] + 20, absolute=True, duration=0.2)
                 double_click()
             else:
-                drag(item.left + configs['center']['x'] + 20, item.top + configs['center']['y'] + 20, car.left + configs['center']['x'] + 20, car.top + configs['center']['y'] + 20, absolute=True, duration=0.3)
+                drag(item.left + anchors['center']['x'] + 20, item.top + anchors['center']['y'] + 20, car.left + anchors['center']['x'] + 20, car.top + anchors['center']['y'] + 20, absolute=True, duration=0.3)
 

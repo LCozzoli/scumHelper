@@ -3,7 +3,7 @@
 
 from keyboard import add_hotkey
 from time import sleep
-from lib.comon import configs, runningAction
+from lib.comon import keybinds, runningAction
 from lib.wood import planks, sticks
 from lib.pins import pins
 from lib.unbox import unboxIt
@@ -28,17 +28,17 @@ def switchUnbox():
     mode = "nails" if mode == "bolts" else "bolts"
     print("Mode > unbox %s" % mode)
 
-add_hotkey(configs['keybinds']['disable'], setMode, args=("off",))
-add_hotkey(configs['keybinds']['sticks'], setMode, args=("sticks",))
-add_hotkey(configs['keybinds']['planks'], setMode, args=("planks",))
-add_hotkey(configs['keybinds']['unbox'], switchUnbox)
-add_hotkey(configs['keybinds']['lockpicks'], setMode, args=("pins",))
-add_hotkey(configs['keybinds']['autoclick'], setMode, args=("autoclick",))
-add_hotkey(configs['keybinds']['autoloot'], setMode, args=("autoloot",))
-add_hotkey(configs['keybinds']['buyBulk'], buyBulk)
-add_hotkey(configs['keybinds']['withdraw'], withdrawItems)
-add_hotkey(configs['keybinds']['moveItems'], moveItems)
-add_hotkey(configs['keybinds']['useButton'], checkLoot)
+add_hotkey(keybinds['disable'], setMode, args=("off",))
+add_hotkey(keybinds['sticks'], setMode, args=("sticks",))
+add_hotkey(keybinds['planks'], setMode, args=("planks",))
+add_hotkey(keybinds['unbox'], switchUnbox)
+add_hotkey(keybinds['lockpicks'], setMode, args=("pins",))
+add_hotkey(keybinds['autoclick'], setMode, args=("autoclick",))
+add_hotkey(keybinds['autoloot'], setMode, args=("autoloot",))
+add_hotkey(keybinds['buyBulk'], buyBulk)
+add_hotkey(keybinds['withdraw'], withdrawItems)
+add_hotkey(keybinds['moveItems'], moveItems)
+add_hotkey(keybinds['useButton'], checkLoot)
 
 def run():
     while True:
