@@ -2,6 +2,8 @@
 
 This python code / scripts / macro allows players to have better experience in SCUM by automatising some unfriendly tasks. If devs decide to add those features in the game directly I'll be pleased to close this project.
 
+Works for 1920x1080 (You can adapt it)
+
 **Despite the fact that it don't read the game memory at all, I'm still waiting for the SCUM devs reply. I don't take any responsibility so use at your own risks.**
 
 ## Preview
@@ -56,6 +58,7 @@ https://opencv.org/releases/
 ```
 
 Or execute the build.bat directly.
+You might need to install https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
 #### Running the script
 
