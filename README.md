@@ -1,6 +1,6 @@
 # SCUM Game Helper
 
-This python code/scripts allows players to have better experience in SCUM by automatising some unfriendly tasks. If devs decide to add those features in the game directly I'll be pleased to close this project.
+This python code / scripts / macro allows players to have better experience in SCUM by automatising some unfriendly tasks. If devs decide to add those features in the game directly I'll be pleased to close this project.
 
 **Despite the fact that it don't read the game memory at all, I'm still waiting for the SCUM devs reply. I don't take any responsibility so use at your own risks.**
 
