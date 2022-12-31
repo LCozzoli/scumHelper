@@ -9,7 +9,7 @@ from lib.pins import pins
 from lib.unbox import unboxIt
 from lib.autoclick import autoclick
 from lib.autoloot import autoloot
-from lib.utils import buyBulk, withdrawItem, moveItems
+from lib.utils import buyBulk, withdrawItems, moveItems
 
 mode = "off"
 
@@ -36,7 +36,7 @@ add_hotkey(configs['keybinds']['lockpicks'], setMode, args=("pins",))
 add_hotkey(configs['keybinds']['autoclick'], setMode, args=("autoclick",))
 add_hotkey(configs['keybinds']['autoloot'], setMode, args=("autoloot",))
 add_hotkey(configs['keybinds']['buyBulk'], buyBulk)
-add_hotkey(configs['keybinds']['withdrawPads'], withdrawItem, args=("padlocks",))
+add_hotkey(configs['keybinds']['withdraw'], withdrawItems)
 add_hotkey(configs['keybinds']['moveItems'], moveItems)
 add_hotkey(configs['keybinds']['useButton'], checkLoot)
 

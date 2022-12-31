@@ -11,6 +11,17 @@ def buyBulk():
         click()
         sleep(0.02)
 
+def withdrawItems():
+    sc = screenContainer('depot')
+    result = locateAll("./images/utils/bought.jpg", sc, confidence=0.90, grayscale=True)
+    items = list(result)
+    count = len(items)
+    if count:
+        for item in items:
+            move(item.left + configs['depot']['x'] - 10, item.top + configs['depot']['y'] - 10, absolute=True, duration=0.1)
+            double_click()
+            sleep(0.05)
+
 def withdrawItem(name):
     sc = screenContainer('depot')
     result = locateAll("./images/utils/%s.jpg" % name, sc, confidence=0.90, grayscale=True)

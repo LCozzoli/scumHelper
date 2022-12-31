@@ -34,7 +34,7 @@
     "autoclick": "ctrl+5",
     "autoloot": "ctrl+6",
     "buyBulk": "f1",
-    "withdrawPads": "f2",
+    "withdraw": "f2",
     "moveItems": "r",
     "useButton": "f"
   }

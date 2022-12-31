@@ -18,7 +18,7 @@ https://youtu.be/B7R0QVpn6Bg
 - **[CTRL+5]** Autoclicker
 - **[CTRL+6]** Autoloot for metal and stuff (in car wreck)
 - **[F1]** Buy bulk at shop (15 elements)
-- **[F2]** Double click on all padlocks from general store depot
+- **[F2]** Double click on all bought items from store depot
 - **[r]** Move red selected items to opened container
 
 Every binds are customizable in the **config.json**, if you use something else than **F** to use, change the use key or the autoloot will not work.
