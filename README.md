@@ -4,7 +4,9 @@ This python code / scripts / macro allows players to have better experience in S
 
 Works for 1920x1080 (You can adapt it)
 
-**Despite the fact that it don't read the game memory at all, I'm still waiting for the SCUM devs reply. I don't take any responsibility so use at your own risks.**
+~~**Despite the fact that it don't read the game memory at all, I'm still waiting for the SCUM devs reply. I don't take any responsibility so use at your own risks.**~~
+
+**Devs are aware of this project and don't consider it as cheating for the moment**
 
 ## Preview
 
