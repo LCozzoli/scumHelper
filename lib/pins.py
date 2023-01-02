@@ -1,6 +1,3 @@
-#!python
-#cython: language_level=3
-
 from lib.unbox import unbox
 from lib.comon import screenContainer, selectOption, exists, anchors, resolution
 from time import sleep

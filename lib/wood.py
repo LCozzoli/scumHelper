@@ -1,6 +1,3 @@
-#!python
-#cython: language_level=3
-
 from lib.comon import screenContainer, exists
 from time import sleep
 

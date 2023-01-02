@@ -1,10 +1,7 @@
-#!python
-#cython: language_level=3
-
 from pyautogui import position, locate, locateAll, pixelMatchesColor
 from mouse import drag, move, double_click, click
 from time import sleep
-from lib.comon import screenContainer, anchors, resolution, exists, selectOption, sortLeft
+from lib.comon import screenContainer, anchors, resolution
 
 def buyBulk():
     print("Bulk Buy > clicking 15 times")

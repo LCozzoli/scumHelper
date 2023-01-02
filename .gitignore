@@ -1,6 +1,5 @@
 
 __pycache__
 build
-lib
 *.c
 .vscode/settings.json

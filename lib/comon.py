@@ -1,9 +1,5 @@
-#!python
-#cython: language_level=3
-
 from pyautogui import size, locateAll, pixelMatchesColor, screenshot
 from mouse import move, click, right_click
-from time import sleep
 from json import loads
 from random import choice
 

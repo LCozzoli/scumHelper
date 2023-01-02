@@ -1,6 +1,3 @@
-#!python
-#cython: language_level=3
-
 from keyboard import add_hotkey
 from time import sleep
 from lib.comon import keybinds, runningAction

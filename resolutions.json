@@ -2,6 +2,16 @@
   "1920x1080": {
     "buttons": 20,
     "action": 30,
+    "whitePixels": {
+      "first": {
+        "x": 650,
+        "y": 1
+      },
+      "second": {
+        "x": 1425,
+        "y": 60
+      }
+    },
     "vincinity": {
       "x": 480,
       "y": 95,

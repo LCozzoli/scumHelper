@@ -1,14 +1,11 @@
-#!python
-#cython: language_level=3
-
 from pyautogui import locate, locateAll, pixelMatchesColor
 from time import sleep
-from mouse import drag, move, press, release, double_click
-from lib.comon import screenContainer, resolution, anchors, sortLeft
+from mouse import drag, move, double_click
+from lib.comon import screenContainer, anchors, sortLeft
 
 def autoloot(skipDrag=False):
     abordCount = 0
-    while not pixelMatchesColor(650, 1, (255, 255, 255)) or not pixelMatchesColor(1425, 60, (255, 255, 255)):
+    while not pixelMatchesColor(anchors['whitePixels']['first']['x'], anchors['whitePixels']['first']['y'], (255, 255, 255)) or not pixelMatchesColor(anchors['whitePixels']['second']['x'], anchors['whitePixels']['second']['y'], (255, 255, 255)):
         sleep(.1)
         abordCount = abordCount + 1
         if abordCount > 40:

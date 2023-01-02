@@ -1,6 +1,3 @@
-#!python
-#cython: language_level=3
-
 from lib.comon import screenContainer, exists, anchors, resolution
 from mouse import drag, move, double_click
 from pyautogui import locate, locateAll

@@ -53,15 +53,6 @@ https://opencv.org/releases/
 
 ## Usage
 
-#### Compiling the code
-
-```bash
-./build.bat
-```
-
-Or execute the build.bat directly.
-You might need to install https://visualstudio.microsoft.com/visual-cpp-build-tools/
-
 #### Running the script
 
 ```bash
