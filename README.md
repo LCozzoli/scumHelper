@@ -32,6 +32,7 @@ Every binds are customizable in the **config.json**, if you use something else t
 Install Python3 and PIP
 
 https://www.python.org/downloads/
+
 Make sure to check "Add Python to PATH"
 
 Then run the following in a terminal
