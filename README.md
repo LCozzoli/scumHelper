@@ -27,7 +27,17 @@ https://youtu.be/B7R0QVpn6Bg
 
 Every binds are customizable in the **config.json**, if you use something else than **F** to use, change the use key or the autoloot will not work.
 
-## Python Installation
+## Download
+
+Download the latest executable there:
+
+https://github.com/LCozzoli/scumHelper/releases
+
+Extract the zip, configure keybinds in config.json, run the executable .exe
+
+## Advanced users
+
+#### Python Installation
 
 Install Python3 and PIP
 
@@ -41,7 +51,7 @@ Then run the following in a terminal
 py -m ensurepip --upgrade
 ```
 
-## Requirements
+#### Requirements
 
 After downloading or cloning the repository, run the following
 
@@ -52,8 +62,6 @@ pip install -r requirements.txt
 If you have issues with missing OpenCV, install it there
 
 https://opencv.org/releases/
-
-## Usage
 
 #### Running the script
 
